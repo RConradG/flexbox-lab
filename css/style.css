@@ -57,6 +57,10 @@ input {
 main {
   background-color: white;
   padding: 32px 72px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav button {
@@ -77,6 +81,8 @@ nav button {
 
 .card-footer {
   font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-footer * {
@@ -87,6 +93,8 @@ nav button {
   padding: 32px 72px 0;
   background-color: white;
   display: flex;
+  justify-content: space-between;
+  
 }
 
 #subnav button {
